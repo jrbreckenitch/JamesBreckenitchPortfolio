@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#headerSection {
+    color: white;
+    height: 347.33px;
+    text-align: center;
+    padding-top: 115px;
+}
+
+#name {
+
+    margin: 0px;
+    /* padding: 20px; */
+    
+}
+
+.lines {
+    background-color: red;
+    width: 200px;
+}
+
+#aboutMeSection {
+    background-color: white;
+    color: gray;
+    height: 347.33px;
+    padding-top: 35px;
+
+}
+
+#projectSection {
+    color: white;
+    height: 347.33px;
+    padding-top: 35px;
+
+}
