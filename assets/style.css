@@ -19,6 +19,26 @@ body {
     height: 347.33px;
     text-align: center;
     padding-top: 115px;
+    position: relative;
+}
+
+#icons {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    /* display: inline-block;
+    text-align: center;
+    align-content: center; */
+}
+
+.fa-linkedin {
+    color: red;
+    margin-right: 4px
+}
+
+.fa-github {
+    color: red;
+    margin-left: 4px;
 }
 
 #name {
@@ -47,3 +67,53 @@ body {
     padding-top: 35px;
 
 }
+
+#images {
+    padding-bottom: 40px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.imageBox {
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    margin: 10px
+}
+
+#box1 {
+    display: inline;
+}
+
+#box2 {
+    display: inline;
+    
+}
+
+#box3 {
+    display: inline;
+    
+}
+
+/* .thumbnail {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.caption {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+}
+
+
+.caption p {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+} */
