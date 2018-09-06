@@ -1,7 +1,7 @@
 body {
     text-align: center;
     align-content: center;
-    background-color: #262626;
+    background-color: #1a1a1a;
     margin: 0px;
     font-family: 'Baloo Tammudu', cursive;
     font-family: 'Rubik', sans-serif;
@@ -85,7 +85,6 @@ body {
 }
 
 #projectSection {
-    background-color: #262626;
     color: #d9d9d9;
     height: 347.33px;
     padding-top: 35px;
@@ -175,9 +174,14 @@ img {
     background-color: #d9d9d9;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 1.25em;
 }
 
-@media all and (max-width: 990px) { 
+@media all and (max-width: 640px) { 
+    #headerSection {
+        padding-top: 50px;
+
+    }
     #aboutMeSection {
         height: 520px;
     }
