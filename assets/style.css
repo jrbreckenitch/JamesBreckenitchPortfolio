@@ -20,7 +20,7 @@ body {
     color: #d9d9d9;
     height: 347.33px;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 40px;
     position: relative;
 
     background-size: 100%;
@@ -29,6 +29,7 @@ body {
 
 #icons {
     position: absolute;
+    padding-top: 5px;
     bottom: 10px;
     width: 100%;
     /* display: inline-block;
@@ -44,6 +45,12 @@ body {
 .fa-github {
     color: #d9d9d9;
     margin-left: 4px;
+}
+
+#email {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 1.5em;
 }
 
 #name {
@@ -179,11 +186,14 @@ img {
 
 @media all and (max-width: 640px) { 
     #headerSection {
-        padding-top: 50px;
+        padding-top: 45px;
 
     }
     #aboutMeSection {
         height: 520px;
+    }
+    #name {
+        font-size: 2em;
     }
 }
 
