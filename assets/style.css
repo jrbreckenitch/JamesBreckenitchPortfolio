@@ -187,13 +187,18 @@ img {
 @media all and (max-width: 640px) { 
     #headerSection {
         padding-top: 45px;
-
+        background: #1a1a1a;
+        /* width: 100%;
+        height: auto; */
     }
     #aboutMeSection {
         height: 520px;
     }
     #name {
         font-size: 2em;
+    }
+    #icons {
+        padding-top: 20px;
     }
 }
 
