@@ -169,6 +169,22 @@ img {
 
 }
 
+#box4 {
+    display: inline-block;
+
+    width: 250px;
+    height: 250px;
+
+    background-size: 100%;
+
+    border: 5px solid #d9d9d9;
+    border-radius: 10px;
+    margin: 10px;
+
+    /* background-image: url(../assets/images/TriviaGamePic.png); */
+
+}
+
 .caption {
     position: absolute;
     top: 70%;
